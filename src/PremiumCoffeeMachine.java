@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class PremiumCoffeeMachine {
+public class PremiumCoffeeMachine implements ICoffeeMachine {
     private Map<CoffeeSelection, Configuration> configMap;
     private Map<CoffeeSelection, CoffeeBean> beans;
     private Grinder grinder;

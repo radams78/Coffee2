@@ -1,7 +1,7 @@
 public class CoffeeApp {
-    private BasicCoffeeMachine coffeeMachine;
+    private ICoffeeMachine coffeeMachine;
 
-    public CoffeeApp(BasicCoffeeMachine coffeeMachine) {
+    public CoffeeApp(ICoffeeMachine coffeeMachine) {
         this.coffeeMachine = coffeeMachine;
     }
 

@@ -1,6 +1,6 @@
 import java.util.Map;
 
-public class BasicCoffeeMachine {
+public class BasicCoffeeMachine implements ICoffeeMachine {
 
     private Configuration config;
     private Map<CoffeeSelection, GroundCoffee> groundCoffee;
